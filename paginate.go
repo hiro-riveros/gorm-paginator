@@ -2,6 +2,7 @@ package paginator
 
 import "gorm.io/gorm"
 
+// Paginate applies pagination to any GORM query with metadata.
 func Paginate(model interface{}, query *gorm.DB, params Params, preload ...string) (interface{}, Metadata, error) {
 	var total int64
 	if params.Page < 1 {
