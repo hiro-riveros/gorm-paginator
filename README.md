@@ -1,5 +1,7 @@
 # gorm-paginator
 
+[![wakatime](https://wakatime.com/badge/user/0c47ce46-27a7-48cd-812b-8a73443197e5/project/da54fd54-7b56-4dd2-8f86-2663995d2138.svg)](https://wakatime.com/badge/user/0c47ce46-27a7-48cd-812b-8a73443197e5/project/da54fd54-7b56-4dd2-8f86-2663995d2138)
+
 **gorm-paginator** es una librería ligera y genérica para agregar paginación a tus consultas usando [GORM](https://gorm.io/) en Go.
 Permite paginar cualquier modelo, incluir relaciones con `Preload` y devolver metadata útil para construir APIs RESTful con soporte para navegación y ordenamiento.
 
